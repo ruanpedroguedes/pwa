@@ -1,0 +1,36 @@
+body {
+          font-family: Arial, sans-serif;
+          text-align: center;
+          background-color: #f0f0f0;
+          margin: 0;
+          padding: 0;
+        }
+        
+        video {
+          width: 100%;
+          max-width: 400px;
+          margin-bottom: 20px;
+        }
+        
+        .buttons-container {
+          display: flex;
+          justify-content: center; /* Centraliza os botões */
+          gap: 10px; /* Espaço entre os botões */
+          margin-bottom: 20px; /* Espaço abaixo dos botões */
+        }
+        
+        button {
+          padding: 10px 20px; /* Aumenta o tamanho do botão */
+          font-size: 16px;
+          cursor: pointer;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          border-radius: 5px; /* Deixa os cantos dos botões arredondados */
+        }
+        
+        button:hover {
+          background-color: #0056b3;
+        }
+
+        
